@@ -15,7 +15,9 @@ M2_HOME: C:\Program Files\Apache\apache-maven-3.5.4
 check that the steps above were successful by gradle -v to show version in CMD
 
 Download MySQL (you can download/use Xampp since it comes with both the MySQL connector and a friendly UI as well phpmyadmin, or you can use MySQL workbench)
-create a schema called "sonarqube"
+Note: To use phpmyadmin, apache in xampp has to also be running! in browser, navigate to: localhost/phpmyadmin/
+
+Create a schema called "sonarqube"
 import the sql files from ddl folder and execute them under the sonarqube schema you created. 
 C:\Users\...\sonar-cis-plugin-master\src\main\ddl
 
