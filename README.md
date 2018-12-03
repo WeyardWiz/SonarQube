@@ -1,10 +1,10 @@
-The first section here explains how to set up the porject on your machine/computer. The development of new metrics is at the end of this file. 
+The first section here explains how to set up the project on your machine/computer. The development of new metrics is at the end of this file. 
 
 ------------------------------------------------------------
 
-Download the sonar-cis-plugin.zip and extract it somewhere
+Download the sonar-cis-plugin.zip from here: https://github.com/WeyardWiz/SonarQube and extract it somewhere
 
-download the sonarqube from here: https://github.com/SonarSource/sonarqube
+Download the sonarqube open source project from here: https://github.com/SonarSource/sonarqube
 
 Download/install gradle
 
@@ -98,7 +98,8 @@ About developing new metrics:
 To add database tables, add the sql file under C:\Users\...\sonar-cis-plugin-master\src\main\ddl folder and make sure you are creating any tables under the sonarqube schema. 
 
 The jdbcconnection.java file is located here: C:\Users\...\sonar-cis-plugin-master\src\main\java\edu\umich\cis
-currently its set to root as user name, with no password. if you have not created user/password for your computer, then leave them as is. That is the default connection.
+
+Currently its set to root as user name, with no password. if you have not created user/password for your computer, then leave them as is. That is the default connection.
 
 Develop/Add java files for new metrics here: C:\Users\...\sonar-cis-plugin-master\src\main\java\edu\umich\cis\measures
 
